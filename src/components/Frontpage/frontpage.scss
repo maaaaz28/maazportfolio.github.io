@@ -1,0 +1,48 @@
+.name{
+    color: #FFF;
+text-align: center;
+font-family: Julius Sans One;
+font-size: 44px;
+font-style: normal;
+font-weight: 400;
+line-height: 98.6%; /* 63.104px */
+letter-spacing: 20.16px;
+padding-top: 150px;
+
+}
+.work{
+    color: #FFF;
+    font-family: Julius Sans One;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 20px;
+    line-height: normal;
+    letter-spacing: 2.52px;
+    padding-top: 60px;
+
+
+}
+.work3{
+    color:#ffd700;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 10px;
+    border: 1px solid #ffd700;
+    margin-left: 580px;
+    margin-top: 600px;
+    float: left;
+    animation: fadeIn 1s 1.8s backwards;
+    scale: 10px;
+    transition-property: scale;
+    transition-duration: 1s;
+    border-radius: 20px;
+    margin-top: 122px;
+    &:hover{ 
+        background-color: #ffd700;
+        color: #333;
+        scale: 30px;  
+}
+}
